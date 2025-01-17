@@ -127,7 +127,7 @@ Ensure proper IDs are used for GET, PUT, and DELETE operations.
 Application supports pagination for listing categories or products (?page={number}).
 
 # Author
-Varad Parkhe 
+Varad Parkhe.
 Email: varadparkhe@gmail.com
 GitHub:VaradParkhe
 LinkedIn:Varad Parkhe
