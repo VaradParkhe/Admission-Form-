@@ -42,60 +42,50 @@ This is a full-stack web application that demonstrates CRUD (Create, Read, Updat
   - Visual Studio Code / WebStorm / any preferred IDE  
 
 ---
-
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
+# Setup Instructions
+**1. Clone the Repository**
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Install Dependencies
-Frontend:
+
+**2. Install Dependencies**
+**Frontend:**
 bash
-Copy
-Edit
+
 cd frontend
 npm install
-Backend:
+
+**Backend:**
 bash
-Copy
-Edit
 cd backend
 npm install
-3. Configure the Database
+
+**3. Configure the Database**
 Create a MySQL database:
 
 sql
-Copy
-Edit
+
 CREATE DATABASE your_database_name;
 Update the database configuration file (e.g., .env or config.js) with your MySQL credentials:
 
-dotenv
-Copy
-Edit
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=your_database_name
-4. Run the Application
-Backend:
+
+**4. Run the Application**
+**Backend:**
 bash
-Copy
-Edit
 cd backend
 node server.js
-Frontend:
+**Frontend:**
 bash
-Copy
-Edit
 cd frontend
 npm start
 The application will run on:
-
 Frontend: http://localhost:3000
 Backend: http://localhost:5000
-API Endpoints
+
+# API Endpoints
 Category CRUD Operations
 GET All Categories:
 GET /api/categories
@@ -104,9 +94,6 @@ Create a New Category:
 POST /api/categories
 Sample Payload:
 
-json
-Copy
-Edit
 {
   "categoryName": "Utilities"
 }
@@ -116,27 +103,24 @@ GET /api/categories/{id}
 Update Category by ID:
 PUT /api/categories/{id}
 Sample Payload:
-
-json
-Copy
-Edit
 {
   "categoryName": "Most Sold"
 }
 Delete Category by ID:
 DELETE /api/categories/{id}
 
-Testing Instructions
+#  Testing Instructions
 Use Postman or any REST client to test the API endpoints.
 Ensure the MySQL database is running before starting the backend server.
 Use the sample payloads provided above for API requests.
-Notes
+
+# Notes
 Ensure proper IDs are used for GET, PUT, and DELETE operations.
 Application supports pagination for listing categories or products (?page={number}).
 
-**## Author**
+---
+# Author
 - **Name:** Varad Parkhe  
 - **Email:** [varadparkhe@gmail.com](mailto:varadparkhe@gmail.com)  
 - **GitHub:** [VaradParkhe](https://github.com/VaradParkhe)  
 - **LinkedIn:** [Varad Parkhe](https://www.linkedin.com/in/varad-parkhe)  
-
