@@ -133,8 +133,10 @@ Use the sample payloads provided above for API requests.
 Notes
 Ensure proper IDs are used for GET, PUT, and DELETE operations.
 Application supports pagination for listing categories or products (?page={number}).
-Author
-Name: Varad Parkhe
-Email: varadparkhe@gmail.com
-GitHub: VaradParkhe
-LinkedIn: Varad Parkhe
+
+**## Author**
+- **Name:** Varad Parkhe  
+- **Email:** [varadparkhe@gmail.com](mailto:varadparkhe@gmail.com)  
+- **GitHub:** [VaradParkhe](https://github.com/VaradParkhe)  
+- **LinkedIn:** [Varad Parkhe](https://www.linkedin.com/in/varad-parkhe)  
+
