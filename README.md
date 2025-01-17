@@ -1,4 +1,4 @@
-**Overview**
+# Overview
 This is a full-stack web application that demonstrates CRUD (Create, Read, Update, Delete) operations on a MySQL database. The frontend is built using React for dynamic and interactive user interfaces, while the backend is implemented with Node.js and Express.js for API services. The database layer uses MySQL for data persistence.
 
 Features
